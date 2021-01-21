@@ -13,13 +13,13 @@ let questions = [
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "संत कबीर का जन्म कब हुआ ?",
+    answer: "विक्रम संवत 1455 (1398 ई.)",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "विक्रम संवत 1455 (1398 ई.)",
+      "विक्रम संवत 1499 (1442 ई.)",
+      "विक्रम संवत 1370 (1313 ई.)",
+      "विक्रम संवत 1450 (1393 ई.)"
     ]
   },
     {
