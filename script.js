@@ -53,7 +53,6 @@ restart_quiz.onclick = ()=>{
     clearInterval(counter); //clear counter
     clearInterval(counterLine); //clear counterLine
     startTimer(timeValue); //calling startTimer function
-    startTimerLine(widthValue); //calling startTimerLine function
     timeText.textContent = "शेष समय"; //change the text of timeText to Time Left
     next_btn.classList.remove("show"); //hide the next button
 }
@@ -76,7 +75,6 @@ next_btn.onclick = ()=>{
         clearInterval(counter); //clear counter
         clearInterval(counterLine); //clear counterLine
         startTimer(timeValue); //calling startTimer function
-        startTimerLine(widthValue); //calling startTimerLine function
         timeText.textContent = "शेष समय"; //change the timeText to Time Left
         next_btn.classList.remove("show"); //hide the next button
     }else{
