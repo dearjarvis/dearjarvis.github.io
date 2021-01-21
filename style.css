@@ -32,6 +32,7 @@ body{
 .quiz_box.activeQuiz,
 .result_box.activeResult{
     opacity: 1;
+    display:block;
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
@@ -55,6 +56,7 @@ body{
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
+	display: none;
     pointer-events: none;
     transition: all 0.3s ease;
 }
@@ -113,6 +115,7 @@ body{
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
+	display:none;
     pointer-events: none;
     transition: all 0.3s ease;
 }
@@ -291,6 +294,7 @@ footer button{
     border: 1px solid #007bff;
     line-height: 10px;
     opacity: 0;
+	display:none;
     pointer-events: none;
     transform: scale(0.95);
     transition: all 0.3s ease;
@@ -302,6 +306,7 @@ footer button:hover{
 
 footer button.show{
     opacity: 1;
+	display:block;
     pointer-events: auto;
     transform: scale(1);
 }
@@ -317,6 +322,7 @@ footer button.show{
     justify-content: center;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
+	display:none;
     pointer-events: none;
     transition: all 0.3s ease;
 }
