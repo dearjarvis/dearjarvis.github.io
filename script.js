@@ -26,7 +26,7 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-    startTimer(15); //calling startTimer function
+    startTimer(25); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 }
 
@@ -170,7 +170,7 @@ function showResult(){
 }
 
 function startTimer(time){
-    counter = setInterval(timer, 1000);
+    counter = setInterval(timer, 10000);
     function timer(){
         timeCount.textContent = time; //changing the value of timeCount with time value
         time--; //decrement the time value
