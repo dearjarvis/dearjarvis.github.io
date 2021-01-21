@@ -388,7 +388,7 @@ footer button.show{
 }
 
 
-.info_box, .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult{
+.info_box, .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult, .quiz_box.activeQuiz{
 margin: 1em auto;
     width: 85%;
     max-width: 480px;	
