@@ -45,7 +45,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
-    timeValue = 15; 
+    timeValue = 25; 
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -56,7 +56,7 @@ restart_quiz.onclick = ()=>{
     clearInterval(counterLine); //clear counterLine
     startTimer(timeValue); //calling startTimer function
     startTimerLine(widthValue); //calling startTimerLine function
-    timeText.textContent = "Time Left"; //change the text of timeText to Time Left
+    timeText.textContent = "शेष समय"; //change the text of timeText to Time Left
     next_btn.classList.remove("show"); //hide the next button
 }
 
@@ -155,7 +155,7 @@ function showResult(){
         let scoreTag = '<span>और शानदार ! 🎉, आपको मिले हैं <p>'+ questions.length +'</p>में से<p>'+ userScore +'</p> अंक</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
-     if(userScore > 4){ // if user scored more than 4
+    else if(userScore > 4){ // if user scored more than 4
         let scoreTag = '<span>और बढ़िया ! 😎, आपको मिले हैं <p>'+ questions.length +'</p>में से<p>'+ userScore +'</p> अंक</span>';
         scoreText.innerHTML = scoreTag;
     }
