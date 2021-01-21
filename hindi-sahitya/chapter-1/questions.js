@@ -14,59 +14,98 @@ let questions = [
     {
     numb: 2,
     question: "संत कबीर का जन्म कब हुआ ?",
-    answer: "विक्रम संवत 1455 (1398 ई.)",
+    answer: "विक्रम संवत 1455",
     options: [
-      "विक्रम संवत 1455 (1398 ई.)",
-      "विक्रम संवत 1499 (1442 ई.)",
-      "विक्रम संवत 1370 (1313 ई.)",
-      "विक्रम संवत 1450 (1393 ई.)"
+      "विक्रम संवत 1455",
+      "विक्रम संवत 1499",
+      "विक्रम संवत 1370",
+      "विक्रम संवत 1450"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "कबीर का जन्म कहां हुआ ?",
+    answer: "काशी",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "हरिद्वार",
+      "काशी",
+      "केदारनाथ",
+      "बनारस"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "कबीर का लालन पालन किसने किया ?",
+    answer: "नीरू-नीमा ने",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "रविदेव-गायत्री ने ",
+      "रामानंद-भगवती ने",
+      "जय-जया ने",
+      "नीरू-नीमा ने"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "कबीर किसके शिष्य थे ?",
+    answer: "रामानंद",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "नरहरिदास",
+      "रामदेव",
+      "रामानंद",
+      "लीलानंद"
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+      {
+    numb: 6,
+    question: "कबीर की काव्य भाषा है ?",
+    answer: "सधुक्कड़ी",
+    options: [
+      "अवधि",
+      "बृज",
+      "सधुक्कड़ी",
+      "खड़ी बोली"
+    ]
+  },
+ {
+    numb: 7,
+    question: "कबीर का रचना संग्रह है ?",
+    answer: "बीजकी",
+    options: [
+      "साकेत",
+      "बीजक",
+      "रामचरितमानस",
+      "कबीरसार"
+    ]
+  },
+    {
+    numb: 8,
+    question: "कबीर थे -",
+    answer: "अशिक्षित",
+    options: [
+      "अशिक्षित",
+      "शिक्षित",
+    ]
+  },
+     {
+    numb: 9,
+    question: "कबीर का देहावसान कब हुआ ?",
+    answer: "विक्रम संवत 1575",
+    options: [
+      "विक्रम संवत 1575",
+      "विक्रम संवत 1572",
+      "विक्रम संवत 1577",
+      "विक्रम संवत 1579"
+    ]
+  },
+    {
+    numb: 10,
+    question: "कबीर का निधन कहां हुआ ?",
+    answer: "मगहर",
+    options: [
+      "मगध",
+      "मगहर",
+      "वाराणसी",
+      "अयोध्या"
+    ]
+  },
 ];
