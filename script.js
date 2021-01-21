@@ -155,7 +155,7 @@ function showResult(){
         let scoreTag = '<span>और शानदार ! 🎉, आपको मिले हैं <p>'+ questions.length +'</p>में से<p>'+ userScore +'</p> अंक</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
-    else if(userScore > 4){ // if user scored more than 4
+     if(userScore > 4){ // if user scored more than 4
         let scoreTag = '<span>और बढ़िया ! 😎, आपको मिले हैं <p>'+ questions.length +'</p>में से<p>'+ userScore +'</p> अंक</span>';
         scoreText.innerHTML = scoreTag;
     }
