@@ -63,7 +63,6 @@ body{
 
 .info_box .info-title{
     height: 60px;
-    width: 100%;
     border-bottom: 1px solid lightgrey;
     display: flex;
     align-items: center;
@@ -386,4 +385,11 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
+}
+
+
+.info_box{
+margin: 1em auto;
+    width: 85%;
+    max-width: 480px;	
 }
