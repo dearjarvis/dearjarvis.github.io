@@ -26,7 +26,7 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-    startTimer(15); //calling startTimer function
+    startTimer(25); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 }
 
@@ -203,7 +203,7 @@ function startTimerLine(time){
     function timer(){
         time += 1; //upgrading time value with 1
         time_line.style.width = time + "px"; //increasing width of time_line with px by time value
-        if(time > 549){ //if time value is greater than 549
+        if(time > 249){ //if time value is greater than 549
             clearInterval(counterLine); //clear counterLine
         }
     }
