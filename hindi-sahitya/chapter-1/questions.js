@@ -69,7 +69,7 @@ let questions = [
  {
     numb: 7,
     question: "कबीर का रचना संग्रह है ?",
-    answer: "बीजकी",
+    answer: "बीजक",
     options: [
       "साकेत",
       "बीजक",
