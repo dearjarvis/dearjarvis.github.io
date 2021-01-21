@@ -170,7 +170,7 @@ function showResult(){
 }
 
 function startTimer(time){
-    counter = setInterval(timer, 10000);
+    counter = setInterval(timer, 1000);
     function timer(){
         timeCount.textContent = time; //changing the value of timeCount with time value
         time--; //decrement the time value
