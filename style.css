@@ -340,7 +340,6 @@ text-align:center;
 }
 
 .result_box .score_text span{
-    display: flex;
     margin: 10px 0;
     font-size: 18px;
     font-weight: 500;
