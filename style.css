@@ -357,7 +357,7 @@ text-align:center;
 
 .result_box .buttons button{
     margin: 0 10px;
-    height: 45px;
+    min-height: 45px;
     padding: 0 20px;
     font-size: 18px;
     font-weight: 500;
