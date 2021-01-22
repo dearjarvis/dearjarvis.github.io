@@ -148,19 +148,19 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 7){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>और शानदार ! 🎉, आपको मिले हैं <b>' + questions.length +' </b> में से <b>' + userScore +' </b> अंक</span>';
+        let scoreTag = '<span>और शानदार ! 🎉, आपको मिले हैं <b>' + questions.length + '</b> में से <b>' + userScore + '</b> अंक</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore > 4){ // if user scored more than 4
-        let scoreTag = '<span>और बढ़िया ! 😎, आपको मिले हैं <b>'+ questions.length +'</b>में से <b>'+ userScore +'</b> अंक</span>';
+        let scoreTag = '<span>और बढ़िया ! 😎, आपको मिले हैं <b>' + questions.length + '</b> में से <b>' + userScore + '</b> अंक</span>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 1){ // if user scored more than 1
-        let scoreTag = '<span>और अच्छा प्रयास ! 🙂, आपको मिले हैं <b>'+ questions.length +'</b>में से <b>'+ userScore +'</b> अंक</span>';
+        let scoreTag = '<span>और अच्छा प्रयास ! 🙂, आपको मिले हैं <b>' + questions.length + '</b> में से <b>' + userScore + '</b> अंक</span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>और क्षमा करें 😐, आपको मिले हैं <b>'+ questions.length +'</b>में से <b>'+ userScore +'</b> अंक</span>';
+        let scoreTag = '<span>और क्षमा करें 😐, आपको मिले हैं <b>' + questions.length + '</b> में से <b>' + userScore + '</b> अंक</span>';
         scoreText.innerHTML = scoreTag;
     }
 }
