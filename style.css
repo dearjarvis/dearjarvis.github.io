@@ -398,6 +398,10 @@ margin: 1em auto;
 .important_points .heading {
 font-size: 18px;
     font-weight: 800;
-    margin-top: 10px;
+    margin: 10px 0;
     text-align: center;
+}
+
+ul {
+padding-left:22px
 }
