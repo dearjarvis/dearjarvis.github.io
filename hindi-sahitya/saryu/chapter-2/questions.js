@@ -117,10 +117,7 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_text");
-     const importantText = result_box.querySelector(".important_point");
-    
-    const points = '<ul><li>अशुभ नक्षत्र में जन्म के कारण माता पिता द्वारा त्यक्त।</li><li>पत्नी रत्नावली की मधुर झिड़की से वैराग्य को प्राप्त।</li><li>श्रीकृष्णगीतावली, दोहावली, कवितावली, गीतावली, विनयपत्रिका, वैराग्य संदीपनी आदि बृज भाषा की रचनाएँ भी।</li><li>छोटे-बड़े बारह ग्रंथ प्रमाणिक।</li></ul>';
-    
+       
     if (userScore > 7){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
         let scoreTag = '<span>और शानदार ! 🎉, आपको मिले हैं <b>'+ questions.length +'</b> में से <b>'+ userScore +'</b> अंक</span>';
