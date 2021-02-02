@@ -408,3 +408,11 @@ padding-left:22px
 .important_points {
 font-size: 17px;
 }
+
+.chapter-title {
+position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;	
+}
