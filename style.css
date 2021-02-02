@@ -394,3 +394,10 @@ margin: 1em auto;
     width: 85%;
     max-width: 480px;	
 }
+
+.important_points .heading {
+font-size: 18px;
+    font-weight: 800;
+    margin-top: 10px;
+    text-align: center;
+}
