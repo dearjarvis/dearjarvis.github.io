@@ -443,5 +443,7 @@ background: #41474e;
 }
 
 a{
-text-decoration:none
+	text-decoration: none;
+    color: #00a3ff;
+    font-weight: 500;
 }
